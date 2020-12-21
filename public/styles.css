@@ -1,0 +1,70 @@
+/* Color palette:
+28abb9
+2d6187
+effad3
+a8dda8
+ */
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: times;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+
+/* Header */
+.header {
+  width: 100vw;
+  background-color: #2d6187;
+  height: 100px;
+  position: relative;
+  /* padding: 0 0 4.5rem; */
+}
+
+.logo{
+  font-family: times;
+  font-size: 2rem;
+  color: white
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.show{
+  z-index: 10;
+  background-color: #2d6187;
+}
+
+.menu {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  width: 40%;
+  font-size: 1.25rem;
+  font-family: sans-serif;
+  word-spacing: 1rem;
+  color: white;
+}
+
+
+.description{
+  padding: 50px;
+  font-size: 1.5em;
+}
+
+.big{
+  padding: 50px;
+  font-size: 200px;
+  color: white;
+  background-color: #2d6187;
+  width: 500px;
+  height: 500px;
+
+}
