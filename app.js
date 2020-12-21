@@ -3,6 +3,8 @@ const bodyParser = require("body-parser");
 const nodemailer = require("nodemailer");
 require('dotenv/config');
 
+const PORT = 3020;
+
 const app = express();
 const {SERVER_PORT, GMAIL_USER, GMAIL_PASS} = process.env
 
@@ -14,6 +16,6 @@ app.get("/", (req, res) => {
 })
 
 
-app.listen(SERVER_PORT, function(){
+app.listen(process.env.PORT || SERVER_PORT, function(){
   console.log(`The Server is now running on port ${SERVER_PORT}`)
 });
