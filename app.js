@@ -3,7 +3,7 @@ const bodyParser = require("body-parser");
 const nodemailer = require("nodemailer");
 require('dotenv/config');
 
-const PORT = 3020;
+const PORT = 3021;
 
 const app = express();
 const {SERVER_PORT, GMAIL_USER, GMAIL_PASS} = process.env
